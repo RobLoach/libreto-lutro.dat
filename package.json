@@ -1,0 +1,28 @@
+{
+  "name": "libretro-lutro.dat",
+  "title": "Lutro",
+  "version": "0.0.1",
+  "date": "2016-06-11",
+  "description": "DAT file containing Lutro games.",
+  "main": "libretro-lutro.js",
+  "private": true,
+  "scripts": {
+    "test": "node libretro-lutro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobLoach/libretro-lutro.dat.git"
+  },
+  "author": "Rob Loach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobLoach/libretro-lutro.dat/issues"
+  },
+  "authorUrl": "https://github.com/libretro/libretro-lutro",
+  "homepage": "https://github.com/RobLoach/libretro-lutro.dat#readme",
+  "dependencies": {
+    "crc": "^3.4.0",
+    "rimraf": "^2.5.2",
+    "shell-escape": "^0.2.0"
+  }
+}

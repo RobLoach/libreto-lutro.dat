@@ -1,0 +1,21 @@
+[submodule "lutro-pong"]
+	path = lutro-pong
+	url = https://github.com/libretro/lutro-pong.git
+[submodule "lutro-snake"]
+	path = lutro-snake
+	url = https://github.com/libretro/lutro-snake.git
+[submodule "lutro-sienna"]
+	path = lutro-sienna
+	url = https://github.com/libretro/lutro-sienna.git
+[submodule "lutro-platformer"]
+	path = lutro-platformer
+	url = https://github.com/libretro/lutro-platformer.git
+[submodule "lutro-iyfct"]
+	path = lutro-iyfct
+	url = https://github.com/libretro/lutro-iyfct.git
+[submodule "lutro-tetris"]
+	path = lutro-tetris
+	url = https://github.com/libretro/lutro-tetris.git
+[submodule "lutro-game-of-life"]
+	path = lutro-game-of-life
+	url = https://github.com/libretro/lutro-game-of-life.git

@@ -1,0 +1,24 @@
+{
+	"lutro-game-of-life": {
+		"name": "Game of Life"
+	},
+	"lutro-iyfct": {
+		"name": "IYFCT"
+	},
+	"lutro-platformer": {
+		"name": "Platformer"
+	},
+	"lutro-pong": {
+		"name": "Pong"
+	},
+	"lutro-sienna": {
+		"name": "Sienna"
+	},
+	"lutro-snake": {
+		"name": "Snake"
+	},
+	"lutro-tetris": {
+		"name": "Tetris",
+		"branch": "lutro"
+	}
+}
