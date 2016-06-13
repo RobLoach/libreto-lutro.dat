@@ -20,5 +20,8 @@
 	"lutro-tetris": {
 		"name": "Tetris",
 		"branch": "lutro"
+	},
+	"love-lutris": {
+		"name": "Lutris"
 	}
 }
