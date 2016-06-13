@@ -7,7 +7,9 @@
   "main": "libretro-lutro.js",
   "private": true,
   "scripts": {
-    "test": "node libretro-lutro"
+    "test": "node libretro-lutro",
+    "preinstall": "git submodule init",
+    "postinstall": "git submodule update"
   },
   "repository": {
     "type": "git",
