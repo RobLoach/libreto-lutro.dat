@@ -19,3 +19,6 @@
 [submodule "lutro-game-of-life"]
 	path = lutro-game-of-life
 	url = https://github.com/libretro/lutro-game-of-life.git
+[submodule "lutro-spaceship"]
+	path = lutro-spaceship
+	url = https://github.com/Kivutar/lutro-spaceship.git

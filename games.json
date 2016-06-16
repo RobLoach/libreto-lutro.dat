@@ -17,6 +17,9 @@
 	"lutro-snake": {
 		"name": "Snake"
 	},
+	"lutro-spaceship": {
+		"name": "Spaceship"
+	},
 	"lutro-tetris": {
 		"name": "Tetris",
 		"branch": "lutro"

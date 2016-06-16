@@ -30,7 +30,7 @@ game (
 game (
 	name "Pong"
 	description "Pong"
-	rom ( name "lutro-pong.lutro" crc 6da9daaa )
+	rom ( name "lutro-pong.lutro" crc c98ca15b )
 )
 
 game (
@@ -43,6 +43,12 @@ game (
 	name "Snake"
 	description "Snake"
 	rom ( name "lutro-snake.lutro" crc 5d6f4103 )
+)
+
+game (
+	name "Spaceship"
+	description "Spaceship"
+	rom ( name "lutro-spaceship.lutro" crc 2520654e )
 )
 
 game (
