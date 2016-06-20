@@ -4,7 +4,8 @@ A DAT file containing [Lutro](https://github.com/libretro/libretro-lutro) games 
 
 ## Usage
 
-TODO: Write documentation here.
+1. Download any `.lutro` file to your games directory
+2. Scan the folder with RetroArch
 
 ## Build
 

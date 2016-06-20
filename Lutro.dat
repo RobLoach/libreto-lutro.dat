@@ -56,3 +56,9 @@ game (
 	description "Tetris"
 	rom ( name "lutro-tetris.lutro" crc 441465f4 )
 )
+
+game (
+	name "Lutris"
+	description "Lutris"
+	rom ( name "love-lutris.lutro" crc 3f0adba8 )
+)

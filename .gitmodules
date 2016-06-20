@@ -22,3 +22,6 @@
 [submodule "lutro-spaceship"]
 	path = lutro-spaceship
 	url = https://github.com/Kivutar/lutro-spaceship.git
+[submodule "love-lutris"]
+	path = love-lutris
+	url = https://github.com/RobLoach/love-lutris.git
