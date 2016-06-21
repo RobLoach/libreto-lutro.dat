@@ -9,3 +9,6 @@ submodules:
 
 node_modules:
 	npm install
+
+update:
+	npm run update
