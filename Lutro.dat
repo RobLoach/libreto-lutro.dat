@@ -84,8 +84,8 @@ game (
 game (
 	name "Lutris"
 	description "Lutris"
-	rom ( name "main.lua" crc e5e5480f )
-	rom ( name "main-LF.lua" crc e5e5480f )
-	rom ( name "main-CR.lua" crc f2adc38 )
-	rom ( name "main-CRLF.lua" crc 3e576df8 )
+	rom ( name "main.lua" crc 6e9204f0 )
+	rom ( name "main-LF.lua" crc 6e9204f0 )
+	rom ( name "main-CR.lua" crc b8b6372f )
+	rom ( name "main-CRLF.lua" crc bd812579 )
 )
