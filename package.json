@@ -22,6 +22,7 @@
   "homepage": "https://github.com/RobLoach/libretro-lutro.dat#readme",
   "dependencies": {
     "crc": "^3.4.0",
+    "crlf-helper": "^0.1.0",
     "rimraf": "^2.5.2",
     "shell-escape": "^0.2.0"
   }

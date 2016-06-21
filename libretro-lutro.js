@@ -5,6 +5,7 @@ const shellEscape = require('shell-escape')
 const pkg = require('./package.json')
 const games = require('./games.json')
 const execSync = require('child_process').execSync
+const crlf = require('crlf-helper')
 
 // Clean the games directory.
 rimraf.sync('games')
@@ -27,20 +28,26 @@ var dat = `clrmamepro (
 `
 
 for (var slug in games) {
+	console.log(slug)
 	var game = games[slug]
 	var out = `${__dirname}/games/${slug}.lutro`
+	var main = fs.readFileSync(`${__dirname}/${slug}/main.lua`, {
+		encoding: 'ascii'
+	})
 	var branch = game.branch || 'master'
 	var args = `git archive --format zip --output ${out} ${branch}`
 	execSync(args, {
 		cwd: slug
 	})
 
-	var crcValue = crc32(fs.readFileSync(out))
 	dat += `
 game (
 	name "${game.name}"
 	description "${game.name}"
-	rom ( name "${slug}.lutro" crc ${crcValue} )
+	rom ( name "main.lua" crc ${crc32(main)} )
+	rom ( name "main-LF.lua" crc ${crc32(crlf.setLineEnding(main, 'LF'))} )
+	rom ( name "main-CR.lua" crc ${crc32(crlf.setLineEnding(main, 'CR'))} )
+	rom ( name "main-CRLF.lua" crc ${crc32(crlf.setLineEnding(main, 'CRLF'))} )
 )
 `
 }
