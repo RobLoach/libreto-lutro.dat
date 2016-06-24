@@ -5,7 +5,6 @@ const shellEscape = require('shell-escape')
 const pkg = require('./package.json')
 const games = require('./games.json')
 const execSync = require('child_process').execSync
-const crlf = require('crlf-helper')
 
 // Clean the games directory.
 rimraf.sync('games')
@@ -45,9 +44,6 @@ game (
 	name "${game.name}"
 	description "${game.name}"
 	rom ( name "main.lua" crc ${crc32(main)} )
-	rom ( name "main-LF.lua" crc ${crc32(crlf.setLineEnding(main, 'LF'))} )
-	rom ( name "main-CR.lua" crc ${crc32(crlf.setLineEnding(main, 'CR'))} )
-	rom ( name "main-CRLF.lua" crc ${crc32(crlf.setLineEnding(main, 'CRLF'))} )
 )
 `
 }
